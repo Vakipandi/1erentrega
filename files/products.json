@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Mermelada",
+		"description": "Pequeña descripcion de la mermelada",
+		"price": 27,
+		"thumbnail": "sin imagen",
+		"code": 200,
+		"stock": 11,
+		"id": 2
+	},
+	{
+		"title": "Stevia",
+		"description": "Pequeña descripcion de la stevia",
+		"price": 15,
+		"thumbnail": "sin imagen",
+		"code": 300,
+		"stock": 7,
+		"id": 3
+	},
+	{
+		"title": "Crema",
+		"description": "Pequeña descripcion de la crema",
+		"price": 30,
+		"thumbnail": "sin imagen",
+		"code": 400,
+		"stock": 20,
+		"id": 4
+	},
+	{
+		"title": "Miel",
+		"description": "Pequeña descripcion de la miel",
+		"price": 23,
+		"thumbnail": "sin imagen",
+		"code": 100,
+		"stock": 16,
+		"id": 5
+	}
+]
