@@ -1,11 +1,12 @@
 {
   "name": "desafio1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type":"module",
+  "main": ".src/app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Vakipandi/desafio1/issues"
   },
-  "homepage": "https://github.com/Vakipandi/desafio1#readme"
+  "homepage": "https://github.com/Vakipandi/desafio1#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
 }
