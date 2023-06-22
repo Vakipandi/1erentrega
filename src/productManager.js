@@ -126,101 +126,111 @@ export default class ProductManager {
 
 export const arrayProd = [
   {
-    title: "Miel1",
-    description: "Pequeña descripcion de la miel frasco pequeño",
-    price: 10,
-    thumbnail: "sin imagen",
-    code: 101,
-    stock: 16,
-  },
-  {
-    title: "Miel2",
-    description: "Pequeña descripcion de la miel frasco mediano",
-    price: 13,
-    thumbnail: "sin imagen",
-    code: 102,
-    stock: 16,
-  },
-  {
-    title: "Miel3",
-    description: "Pequeña descripcion de la miel frasco grande",
-    price: 23,
-    thumbnail: "sin imagen",
-    code: 103,
-    stock: 16,
-  },
-
-  {
-    title: "Mermelada1",
-    description: "Pequeña descripcion de la mermelada frasco pequeño",
-    price: 12,
-    thumbnail: "sin imagen",
-    code: 201,
-    stock: 11,
-  },
-  {
-    title: "Mermelada2",
-    description: "Pequeña descripcion de la mermelada frasco mediano",
-    price: 20,
-    thumbnail: "sin imagen",
-    code: 202,
-    stock: 11,
-  },
-  {
-    title: "Mermelada3",
-    description: "Pequeña descripcion de la mermelada frasco grande",
-    price: 32,
-    thumbnail: "sin imagen",
-    code: 203,
-    stock: 11,
-  },
-  {
-    title: "Stevia1",
-    description: "Pequeña descripcion de la mermelada frasco pequeño",
-    price: 15,
-    thumbnail: "sin imagen",
-    code: 301,
-    stock: 17,
-  },
-  {
-    title: "Stevia2",
-    description: "Pequeña descripcion de la mermelada frasco mediano",
-    price: 26,
-    thumbnail: "sin imagen",
-    code: 302,
-    stock: 34,
-  },
-  {
-    title: "Stevia3",
-    description: "Pequeña descripcion de la mermelada frasco grande",
-    price: 36,
-    thumbnail: "sin imagen",
-    code: 303,
-    stock: 17,
-  },
-
-  {
-    title: "Crema1",
-    description: "Pequeña descripcion de la mermelada frasco pequeño",
-    price: 8,
-    thumbnail: "sin imagen",
-    code: 401,
-    stock: 21,
-  },
-  {
-    title: "Crema2",
-    description: "Pequeña descripcion de la mermelada frasco mediano",
-    price: 18,
-    thumbnail: "sin imagen",
-    code: 402,
-    stock: 24,
-  },
-  {
-    title: "Crema3",
-    description: "Pequeña descripcion de la mermelada frasco grande",
-    price: 33,
-    thumbnail: "sin imagen",
-    code: 403,
-    stock: 10,
-  },
+		"title": "Miel1",
+		"description": "Pequeña descripcion de la miel frasco pequeño",
+		"price": 10,
+		"thumbnail": "sin imagen",
+		"code": 1,
+		"stock": 16,
+		"id": 1
+	},
+	{
+		"title": "Miel2",
+		"description": "Pequeña descripcion de la miel frasco mediano",
+		"price": 13,
+		"thumbnail": "sin imagen",
+		"code": 102,
+		"stock": 16,
+		"id": 2
+	},
+	{
+		"title": "Miel3",
+		"description": "Pequeña descripcion de la miel frasco grande",
+		"price": 23,
+		"thumbnail": "sin imagen",
+		"code": 103,
+		"stock": 16,
+		"id": 3
+	},
+	{
+		"title": "Mermelada1",
+		"description": "Pequeña descripcion de la mermelada frasco pequeño",
+		"price": 12,
+		"thumbnail": "sin imagen",
+		"code": 201,
+		"stock": 11,
+		"id": 4
+	},
+	{
+		"title": "Mermelada2",
+		"description": "Pequeña descripcion de la mermelada frasco mediano",
+		"price": 20,
+		"thumbnail": "sin imagen",
+		"code": 202,
+		"stock": 11,
+		"id": 15
+	},
+	{
+		"title": "Mermelada3",
+		"description": "Pequeña descripcion de la mermelada frasco grande",
+		"price": 32,
+		"thumbnail": "sin imagen",
+		"code": 203,
+		"stock": 11,
+		"id": 6
+	},
+	{
+		"title": "Stevia1",
+		"description": "Pequeña descripcion de la stevia frasco pequeño",
+		"price": 15,
+		"thumbnail": "sin imagen",
+		"code": 301,
+		"stock": 17,
+		"id": 7
+	},
+	{
+		"title": "Stevia2",
+		"description": "Pequeña descripcion de la stevia frasco mediano",
+		"price": 26,
+		"thumbnail": "sin imagen",
+		"code": 302,
+		"stock": 34,
+		"id": 8
+	},
+	{
+		"title": "Stevia3",
+		"description": "Pequeña descripcion de la stevia frasco grande",
+		"price": 36,
+		"thumbnail": "sin imagen",
+		"code": 303,
+		"stock": 17,
+		"id": 9
+	},
+	{
+		"title": "Crema1",
+		"description": "Pequeña descripcion de la crema frasco pequeño",
+		"price": 8,
+		"thumbnail": "sin imagen",
+		"code": 401,
+		"stock": 21,
+		"id": 10
+	},
+	{
+		"title": "Crema2",
+		"description": "Pequeña descripcion de la crema frasco mediano",
+		"price": 18,
+		"thumbnail": "sin imagen",
+		"code": 402,
+		"stock": 24,
+		"id": 11
+	},
+	{
+		"title": "Crema3",
+		"description": "Pequeña descripcion de la crema frasco grande",
+		"price": 33,
+		"thumbnail": "sin imagen",
+		"code": 403,
+		"stock": 10,
+		"id": 12
+	}
 ];

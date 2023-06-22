@@ -55,7 +55,7 @@
 	},
 	{
 		"title": "Stevia1",
-		"description": "Pequeña descripcion de la mermelada frasco pequeño",
+		"description": "Pequeña descripcion de la stevia frasco pequeño",
 		"price": 15,
 		"thumbnail": "sin imagen",
 		"code": 301,
@@ -64,7 +64,7 @@
 	},
 	{
 		"title": "Stevia2",
-		"description": "Pequeña descripcion de la mermelada frasco mediano",
+		"description": "Pequeña descripcion de la stevia frasco mediano",
 		"price": 26,
 		"thumbnail": "sin imagen",
 		"code": 302,
@@ -73,7 +73,7 @@
 	},
 	{
 		"title": "Stevia3",
-		"description": "Pequeña descripcion de la mermelada frasco grande",
+		"description": "Pequeña descripcion de la stevia frasco grande",
 		"price": 36,
 		"thumbnail": "sin imagen",
 		"code": 303,
@@ -82,7 +82,7 @@
 	},
 	{
 		"title": "Crema1",
-		"description": "Pequeña descripcion de la mermelada frasco pequeño",
+		"description": "Pequeña descripcion de la crema frasco pequeño",
 		"price": 8,
 		"thumbnail": "sin imagen",
 		"code": 401,
@@ -91,7 +91,7 @@
 	},
 	{
 		"title": "Crema2",
-		"description": "Pequeña descripcion de la mermelada frasco mediano",
+		"description": "Pequeña descripcion de la crema frasco mediano",
 		"price": 18,
 		"thumbnail": "sin imagen",
 		"code": 402,
@@ -100,20 +100,11 @@
 	},
 	{
 		"title": "Crema3",
-		"description": "Pequeña descripcion de la mermelada frasco grande",
+		"description": "Pequeña descripcion de la crema frasco grande",
 		"price": 33,
 		"thumbnail": "sin imagen",
 		"code": 403,
 		"stock": 10,
 		"id": 12
-	},
-	{
-		"title": "Miel1",
-		"description": "Pequeña descripcion de la miel frasco pequeño",
-		"price": 10,
-		"thumbnail": "sin imagen",
-		"code": 101,
-		"stock": 16,
-		"id": 13
 	}
 ]
