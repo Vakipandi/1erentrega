@@ -1,0 +1,20 @@
+<div>
+  <h1>Cremani</h1>
+  <div>
+    {{#each products}}
+      <div>
+
+        <div>
+          <div>
+            <p>{{this.title}}</p>
+            <p>{{this.description}}</p>
+            <p>${{this.price}}</p>
+          </div>
+          <div>
+            <button>AGREGAR AL CARRITO</button>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

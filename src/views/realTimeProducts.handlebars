@@ -1,0 +1,94 @@
+<div>
+  <h1>Cremani</h1>
+  <div id="cards_container">
+    {{#each products}}
+      <div id={{this.id}}>
+
+        <div>
+          <div>
+            <p>{{this.title}}</p>
+            <p>{{this.description}}</p>
+            <p>${{this.price}}</p>
+          </div>
+          <div>
+            <button>AGREGAR AL CARRITO</button>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+  <h1>Products Admin</h1>
+  <form id="set_form">
+    <h2>Add Product</h2>
+    <div>
+      <div>
+        <label>
+          <p>Product Title:</p>
+          <input type="text" placeholder="product title" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <p>Product Description:</p>
+          <input type="text" placeholder="product description" />
+        </label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label>
+          <p>Product Price:</p>
+          <input type="number" placeholder="product price" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <p>Product image:</p>
+          <input type="file" />
+        </label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label>
+          <p>Product Stock:</p>
+          <input type="number" placeholder="product stock" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <p>Product Code:</p>
+          <input type="text" placeholder="product code" />
+        </label>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label>
+          <p>Product Status:</p>
+          <select>
+            <option value="true">true</option>
+            <option value="false">false</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <button type="submit">SET PRODUCT</button>
+      </div>
+    </div>
+  </form>
+  <form id="delete_form">
+    <h2>Delete Product</h2>
+    <div id="formGroup">
+      <select id="select">
+        <option value="0">Select an option...</option>
+      </select>
+    </div>
+    <div id="btn_container">
+      <button type="submit">DELETE PRODUCT</button>
+    </div>
+  </form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
